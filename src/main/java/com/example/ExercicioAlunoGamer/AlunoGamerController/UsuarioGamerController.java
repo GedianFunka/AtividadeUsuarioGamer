@@ -18,6 +18,7 @@ public class UsuarioGamerController {
 
     @GetMapping
     public List<UsuarioGamer> listar(){
+
         return service.listar();
     }
 
